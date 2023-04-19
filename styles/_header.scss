@@ -1,0 +1,62 @@
+header {
+  padding: 0 1.875rem;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 600px;
+
+  .header__city-search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.875rem;
+
+    input {
+      flex: 1;
+      height: 2.5rem;
+      padding: 0 0.9375rem;
+      border-radius: 0.625rem 0 0 0.625rem;
+      background-color: #fff;
+      appearance: none;
+    }
+
+    button {
+      text-align: center;
+      cursor: pointer;
+      min-width: 2.5rem;
+      min-height: 2.5rem;
+      background-color: #000;
+      border-radius: 6249.9375rem;
+      margin-left: -1.875rem;
+      box-shadow: rgba(50, 50, 93, 0.25) 0rem 0.8125rem 1.6875rem -0.3125rem,
+        rgba(0, 0, 0, 0.3) 0rem 0.5rem 1rem -0.5rem;
+
+      transition: all 0.2s ease-in;
+
+      &:hover {
+        filter: brightness(1.25);
+      }
+
+      i {
+        color: #fff;
+      }
+    }
+  }
+
+  .header__container-unbutu {
+    display: flex;
+    flex-direction: column;
+    gap: 0.375rem;
+    font-family: "Ubuntu", sans-serif;
+    margin-top: 0.875rem;
+
+    .header__current-date {
+      color: #a2a2be;
+      font-size: 0.875rem;
+    }
+
+    .header__city-name {
+      font-weight: 500;
+      font-size: 1.25rem;
+    }
+  }
+}

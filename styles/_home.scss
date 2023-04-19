@@ -1,0 +1,29 @@
+.current-temperature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1.875rem;
+
+  img {
+    width: 7.8125rem;
+    margin-top: 0.9375rem;
+  }
+
+  .current-temperature__description {
+    color: #b6aef0;
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-top: 1.875rem;
+  }
+
+  .current-temperature__info-label {
+    margin-top: 0.9375rem;
+    color: #a2a2be;
+  }
+
+  .current-temperature__current-temperature {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 0.625rem;
+  }
+}
